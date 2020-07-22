@@ -47,6 +47,22 @@ service:
   # annotations: {}
   type: ClusterIP
 
+## Define ingress and egress rules for service
+##
+networkpolicy:
+  enabled: false
+  ## Example
+  # enabled: true
+  # ingress:
+  #   - from:
+  #      - namespaceSelector:
+  #          matchLabels:
+  #            name: product
+  # egress:
+  #   - ports:
+  #     - protocol: TCP
+  #       port: 443
+
 ## Persist data to a persistent volume
 ##
 persistence:

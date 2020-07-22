@@ -3,7 +3,34 @@ entries:
   influxdb:
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-07-22T18:10:14.126324+10:00"
+    created: "2020-07-22T18:12:25.827718+10:00"
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: 17fc5c31285639c9a1a901c3f023ed22c735f68dc652e014f05783c5c0d57041
+    home: https://awilmore.github.io/helm-charts/
+    keywords:
+    - mx51
+    - influxdb
+    - database
+    - timeseries
+    - influxdata
+    maintainers:
+    - email: rawkode@influxdata.com
+      name: rawkode
+    - email: giacomo@influxdata.com
+      name: gitirabassi
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: influxdb
+    sources:
+    - https://awilmore.github.io/helm-charts/
+    urls:
+    - https://awilmore.github.io/helm-charts/influxdb-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2020-07-22T18:12:25.710471+10:00"
     description: Scalable datastore for metrics, events, and real-time analytics.
     digest: 11bd5d24bec1b73abd624f6d821e4bc3625c33452f288c19f682f0d429b02be2
     home: https://awilmore.github.io/helm-charts/
@@ -30,7 +57,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2020-07-22T18:10:14.09768+10:00"
+    created: "2020-07-22T18:12:25.707688+10:00"
     description: Scalable datastore for metrics, events, and real-time analytics.
     digest: 9c2f09b553015404dffda6a8e31f4f5d629e3e467bd7ab63095ed45f94e3b57e
     home: https://awilmore.github.io/helm-charts/
@@ -55,4 +82,4 @@ entries:
     urls:
     - https://awilmore.github.io/helm-charts/influxdb-0.0.2.tgz
     version: 0.0.2
-generated: "2020-07-22T18:10:14.093017+10:00"
+generated: "2020-07-22T18:12:25.702737+10:00"

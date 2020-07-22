@@ -49,7 +49,7 @@ service:
 
 ## Define ingress and egress rules for service
 ##
-networkpolicy:
+networkPolicy:
   enabled: false
   ## Example
   # enabled: true

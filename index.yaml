@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  mx-influxdb:
+  - apiVersion: v1
+    appVersion: 1.8.0
+    created: "2020-07-22T17:18:56.11933+10:00"
+    description: Scalable datastore for metrics, events, and real-time analytics.
+    digest: 0c68e384c587b2ac04648260c765ef0e30d5d268000f5b3141838ab42de8b8fe
+    home: https://github.com/mx51/helm-charts
+    keywords:
+    - mx51
+    - influxdb
+    - database
+    - timeseries
+    - influxdata
+    maintainers:
+    - email: rawkode@influxdata.com
+      name: rawkode
+    - email: giacomo@influxdata.com
+      name: gitirabassi
+    - email: urakiny@gmail.com
+      name: aisuko
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: mx-influxdb
+    sources:
+    - https://github.com/mx51/helm-charts
+    urls:
+    - https://awilmore.github.io/helm-chart/mx-influxdb-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-07-22T17:18:56.085691+10:00"
